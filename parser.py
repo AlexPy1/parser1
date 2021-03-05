@@ -29,24 +29,10 @@ today(block=block_1)
 
 
 # count=1
-# block_2 = soup.find('div', id='cmp15')
-# liga2=block_2.find_all('span')[count - 1].text
-# print(liga2)
-# print()
-# try:
-#     for i in range(20):
-#         time = block_2.find_all('span')[count].text
-#         one_team = block_2.find_all('span')[count + 1].text
-#         two_team = block_2.find_all('span')[count + 2].text
-#         result1 = time + ' ' + one_team + '-' + two_team
-#         count += 5
-#         print(result1)
-# except:
-#     print()
-#
-#
-# count=1
-# block_3 = soup.find('div', id='cmp723')
+block_2 = soup.find('div', id='cmp17')
+today(block=block_2)
+block_3 = soup.find('div', id='cmp723')
+today(block=block_3)
 # liga3=block_3.find_all('span')[count - 1].text
 # print(liga3)
 # print()
